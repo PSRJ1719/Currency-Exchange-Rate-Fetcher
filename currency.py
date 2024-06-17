@@ -2,7 +2,7 @@ import requests
 
 API_KEY = 'fca_live_QiRD4yaE7K1aJQIAfVLojfu8J2KPxSXPYkDxxTzc'
 BASE_URL = f"https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}"
-CURRENCIES = ["USD", "CAD", "EUR", "AUD", "CNY"]
+CURRENCIES = ["USD", "CAD", "EUR", "AUD", "CNY", "RMB"]
 
 def get_exchange_rates(base_currency):
     """Fetch exchange rates for a given base currency."""
