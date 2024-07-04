@@ -6,4 +6,6 @@ This is a simple Python script to fetch and display the latest exchange rates fo
 
 ## Prerequisites
 
-- pip install requests
+- pip install
+- pprint
+- requests
